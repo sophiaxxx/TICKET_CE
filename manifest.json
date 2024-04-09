@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "利用chrome extension 搶票",
+    "name": "KKTIX搶票小助理",
     "description": "自己想看演唱會，自己搶:目(限kktix售票系統)",
     "version": "1.0.0",
     "icons": {
