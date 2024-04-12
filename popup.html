@@ -1,14 +1,29 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" style="width:100px;">
+<html lang="en">
   <head>
-    <title>翻轉 google </title>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+    <link href="css/popup.css" type="text/css" rel="stylesheet" charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-  <body id="body">
-    <button id="ticketGet">Get Ticket</button>
-    <button id="reset">Reset</button>
+    <title>Ticket Got it!</title>
+  </head>
+  <body>
+    <form id="app" style="padding-left:15px">
+      <div style="position: relative">  
+        <p>input time you want : <input type="time" id="timeInput" /></p>
+      </div>  
+      <div>
+        <button type="button" class="btn btn-sm btn-outline-dark" id="getTicket" >Get Ticket</button>
+        <button type="button" class="btn btn-sm btn-outline-white" id="reset">Reset</button>
+      </div>
+    </form>
+    
     <script src="./popup.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+
   </body>
 </html>

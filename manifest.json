@@ -1,28 +1,29 @@
 {
-    "manifest_version": 2,
-    "name": "KKTIX搶票小助理",
-    "description": "自己想看演唱會，自己搶:目(限kktix售票系統)",
-    "version": "1.0.0",
-    "icons": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
-    },
-    "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
-    },
-    "permissions": [
-      "activeTab"
-    ],
-    "content_scripts": [
-      {
-        "matches": [
-          "https://kktix.com/events/*"
-        ],
-        "js": [
-          "execute.js"
-        ]
-      }
-    ]
+  "manifest_version": 2,
+  "name": "KKTIX搶票小助理",
+  "description": "自己想看演唱會，自己搶:目(限kktix售票系統)",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://kktix.com/events/*"],
+      "js": ["execute.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
+}
