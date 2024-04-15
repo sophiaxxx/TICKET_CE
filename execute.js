@@ -23,14 +23,11 @@ const ticketEvent = (t) => {
 };
 
 function ticketGot(){
-    
-console.log('start');
-
 const clickBtn = document.querySelector("button.btn-default.plus");
 if (clickBtn && !clickBtn.disabled) {
 
     clickBtn.click();
-    clickBtn.click();
+    //setTimeout(()=> { element.click(); }, 100); //twice click, so i can choose 2 tickets!
 } else {
     console.log("not found");
 }
@@ -58,10 +55,7 @@ console.log('done!!');
 }
 
 function go2getTicket(){
-    console.log("reload");
     chrome.runtime.sendMessage({ action: 'pageReloaded' });
-    location.reload();
-    
 }
 
 function reset(){
