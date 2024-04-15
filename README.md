@@ -6,8 +6,13 @@
 
 
 **功能介紹:**
-:pencil:**注意** 此外掛只適用KKTIX，還有此功能未上架到chrome extension，欲使用請自行下載
-:pencil:步驟:
+
+:pencil:**注意** 
+
+此外掛只適用KKTIX，還有此功能未上架到chrome extension，欲使用請自行下載
+
+:pencil:**步驟**
+
 1. 先下載此包程式到你的本機
 2. 到chrome extension開發者模式，選擇loading unpacked，再選擇剛剛下載的那包專案
 3. 將此外掛加到你的chrome外掛中，就可以去看有無此外掛功能，如下圖
