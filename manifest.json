@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "KKTIX搶票小助理",
-  "description": "自己想看演唱會，自己搶:目(限kktix售票系統)",
+  "name": "自動化小助理",
+  "description": "限kk系統",
   "version": "1.0.0",
   "icons": {
     "16": "images/icon.png",
